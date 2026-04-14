@@ -84,7 +84,7 @@ const sendNotification = async (userId) => {
         title: "Daily Credits Refilled",
         body: "Your credits have been topped up. Back to studying.",
         data: {
-            type: "home_page"
+            type: "credits_refilled"
         }
       })
     });
